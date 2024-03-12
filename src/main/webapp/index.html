@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyChat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <h1 class="text-center mt-5 mb-3">My Java Chat</h1>
+   <div class="formbox">
+       <p class="text-center my-5">환영합니다. 채팅방에 입장하시려면 이름을 입력하세요.</p>
+       <form name="loginform" id="loginform" class="loginform" action="chattroom" method="post" onsubmit="return handleSubmit();">
+           <input type="hidden" name="first" value="ok">
+           <div>
+            <input type="text" name="username" id="username" class="form-control" placeholder="이름을 입력">
+           </div>
+           <div class="text-center mt-4">
+              <button type="submit" class="submit btn btn-success px-5">채팅방 입장</button>
+           </div>
+       </form>
+   </div>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>

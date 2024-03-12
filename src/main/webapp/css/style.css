@@ -1,0 +1,95 @@
+body{
+    font-family: "Sunflower", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:16px;
+    color:#333;
+}
+body.talk{
+    padding:40px;
+}
+.sunflower-bold {
+    font-family: "Sunflower", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .sunflower-medium {
+    font-family: "Sunflower", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .sunflower-light {
+    font-family: "Sunflower", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .chatbox{
+     width: 800px;
+     max-width:100%;
+     margin:30px auto;
+     border:1px solid #ddd;
+  }
+  .iframe{
+    width:800px;
+    height:593px;
+  }
+  .viewbox{
+     height:600px;
+     overflow-y:auto;
+     overflow-x:hidden;
+  }
+  .chatinsert{
+     padding: 30px 50px 20px;
+  }
+  
+  /** 채팅방 입장 **/
+  .formbox{
+     width:600px;
+     height:350px;
+     background:#ededed;
+     border-radius:14px;
+     border:1px solid #ddd;
+     margin-left:auto;
+     margin-right:auto;
+     max-width:100%;
+     padding:30px 50px;
+  }
+  .loginform{
+      padding-left:50px;
+      padding-right:50px;
+  }
+
+
+  /** body.talk **/
+  body.talk ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  body.talk li{
+    margin-bottom:30px;
+    display:flex;
+  }
+  body.talk li:nth-child(even){
+    justify-content: flex-end;
+  }
+  body.talk li div{
+        border:1px solid #333;
+    background:#fff;
+    padding:20px 30px;
+    border-radius:10px;
+    width: 45%;
+  }
+  body.talk li div>span{
+    display:inline-block;
+    font-size:14px;
+    font-weight:500;
+    margin-bottom:10px;
+    background:#666;
+    color:#ededed;
+    padding:5px 10px;
+    border-radius:5px;
+  }
+
